@@ -1,0 +1,21 @@
+// body{
+//     background:black;
+// }
+.numpad{
+    display:flex;
+    flex-direction: column;
+    // padding:4vw;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width:15vw;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+.btn2{
+    width:38vw;
+}
+.row{
+    width:auto;
+}
