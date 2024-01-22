@@ -1,8 +1,11 @@
-// body{
-//     background:black;
-// }
+.body__whole{
+    position:relative;
+    // background:black;
+}
 .numpad{
     display:flex;
+    // position:absolute;
+    // top:200px;
     flex-direction: column;
     // padding:4vw;
     justify-content: center;
@@ -12,9 +15,12 @@
     width:15vw;
     margin-left:4vw;
     margin-right: 4vw;
+    height:15vw;
+    border-radius:50%;
 }
 .btn2{
-    width:38vw;
+    width:38.9vw;
+    border-radius: 50px 50px 50px 50px;
 }
 .row{
     width:auto;
