@@ -1,15 +1,23 @@
 .body__whole{
     position:relative;
+    height:100%;
+    
     // background:black;
 }
 .numpad{
     display:flex;
     // position:absolute;
+    // right:50%;
     // top:200px;
+    // bottom:0;
     flex-direction: column;
     // padding:4vw;
+    background:#121214;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0px 0px ;
+    margin-right:auto;
+    margin-left:auto;
 }
 .btn{
     width:15vw;
@@ -17,10 +25,16 @@
     margin-right: 4vw;
     height:15vw;
     border-radius:50%;
+    background: #202024;
+    color:#fff;
+    border:0px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .btn2{
     width:38.9vw;
     border-radius: 50px 50px 50px 50px;
+    background:#007CFF;
 }
 .row{
     width:auto;
