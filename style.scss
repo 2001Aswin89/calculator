@@ -1,21 +1,27 @@
+body{
+    margin: 0px;;
+}
 .body__whole{
     position:relative;
-    height:100%;
+        background:#202024;
+        height:100vh;
     
-    // background:black;
+    // background:green;
 }
 .numpad{
     display:flex;
-    // position:absolute;
+    position:absolute;
     // right:50%;
     // top:200px;
-    // bottom:0;
+    width:100%;
+    bottom:0;
     flex-direction: column;
     // padding:4vw;
     background:#121214;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 10px 0px 0px ;
+    // border-radius: 10px 10px 0px 0px ;
+    border-radius: 30px ;
     margin-right:auto;
     margin-left:auto;
 }
@@ -38,4 +44,11 @@
 }
 .row{
     width:auto;
+}
+
+.result{
+    &__section{
+        // height:100%;
+        background:#202024;
+    }
 }
